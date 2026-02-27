@@ -1,4 +1,4 @@
-Actually i didnt make too much, just stay on cosmic setup. Not any special term or other DE. Just cosmic DE. 
+Actually i didnt make too much, just stay on cosmic setup. Not any special terminal or other DE. Just cosmic DE. 
 
 ## Here what i did in this setup:
 
