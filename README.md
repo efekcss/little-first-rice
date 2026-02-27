@@ -3,17 +3,18 @@ Actually i didnt make too much, just stay on cosmic setup. Not any special termi
 ## Here what i did in this setup:
 
 * I just removed dock/Taskbar.
+* Seperate the panel and make transparent about %50.
 * [Wallpaper](wallpaper.png). but originally I took from [here](https://github.com/sid-kailasa/hyprland-dots/blob/main/wallpapers/wall2.png). (That is also good hyprland rice but i just wanna experience the cosmic de.)
 * Add some applets from Cosmic App Store : 
     * **Logo Menu** (and then special logo, i choose berserk logo. it should be .svg file u can convert through web-sites)
-    * **Sysinfo**
-    * **Weather**
+    * **Sysinfo**; for see CPU, RAM usage and bitrates.
+    * **Weather**, for see the weather... i guess?
     * And add **Numbered Workspaces** from panel settings.
-* I changed colors from settings go themes and change the color here is the Hex codes :
+* I changed colors from settings, go themes and change the color here is the Hex codes :
     #8A9BE8  and for the darker tone : #151624 
     (You can also import display settings from [here](ice-frost.ron). Just download .rov file and import from settings.)
 
-That's it. Just ask me if i forgot any setting. Thank you for your interest.
+**That's it. Just ask me if you have a questions. Thank you for your interest!**
 
 # Screenshots
 
