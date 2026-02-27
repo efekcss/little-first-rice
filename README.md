@@ -9,9 +9,9 @@ That's it. Just ask me if i forgot any setting. Thank you for your interest.
 
 # Screenshots
 
-[Desktop](/screenshots/screenshot1.png)
-[Desktop & Terminal](/screenshots/screenshot2.png)
-[IDE & Terminal](/screenshots/screenshot3.png)
-[Tiling](/screenshots/tiling-screenshot.png)
+![Desktop](/screenshots/screenshot1.png)
+![Desktop & Terminal](/screenshots/screenshot2.png)
+![IDE & Terminal](/screenshots/screenshot3.png)
+![Tiling](/screenshots/tiling-screenshot.png)
 
 > Thats my first rice attempt. I just wanna stay clean, You can take from here and make it better.
