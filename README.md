@@ -1,6 +1,6 @@
 Actually i didnt make too much, just stay on cosmic setup. Not any special term or other DE. Just cosmic DE. 
 
-** Here what i did in this setup:
+## Here what i did in this setup:
 
 * I just removed dock/Taskbar.
 * [Wallpaper](wallpaper.png). but originally I took from [here](https://github.com/sid-kailasa/hyprland-dots/blob/main/wallpapers/wall2.png). (That is also good hyprland rice but i just wanna experience the cosmic de.)
