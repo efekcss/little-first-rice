@@ -6,7 +6,7 @@ Actually i didnt make too much, just stay on cosmic setup. Not any special termi
 * Seperate the panel and make transparent about %50.
 * [Wallpaper](wallpaper.png). but originally I took from [here](https://github.com/sid-kailasa/hyprland-dots/blob/main/wallpapers/wall2.png). (That is also good hyprland rice but i just wanna experience the cosmic de.)
 * Add some applets from Cosmic App Store : 
-    * **Logo Menu** (and then special logo, i choose berserk logo. it should be .svg file u can convert through web-sites)
+    * **Logo Menu** and then choose special logo, i chose [berserk logo](/logos/Berserk-Logo-white.svg) you can choose whatever do u want. it should be .svg file u can convert any image files through web-sites
     * **Sysinfo**; for see CPU, RAM usage and bitrates.
     * **Weather**, for see the weather... i guess?
     * And add **Numbered Workspaces** from panel settings.
