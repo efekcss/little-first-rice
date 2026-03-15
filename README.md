@@ -45,7 +45,8 @@ Bu yapılandırma ile sistemine şunları kazandırdık:
 3. **Performans Otomasyonu:** Ağır bir uygulama (örneğin Prism Launcher) açıldığında sistemin otomatik olarak "Performans" moduna geçmesini sağladık.
 
 ---
-
+> NOT : Bu ayarlara rağmen NVIDIA tam olarak D3 sleep suspended modune giremiyor sistemin bir çok servisi hook atıyor bu da istediğimiz hybrid sistemi vermiyor imkansız kılıyor, en iyisi system76power üzerinden grafik kartını direkt integrated (intel) yapmak nvidia kullanmak istediğim zaman prizde kullanıcağım zaman ise nvidia'ya almak mecburiyetindeyim ki direkt nvidia almaya gerek yok hybrid alsak da olur.
+---
 ## 🛠 Adım Adım Uygulanan İşlemler
 
 ### 1. Donanımsal Temel: Hibrit Modun Aktifleştirilmesi
@@ -82,12 +83,16 @@ alias profile-balanced='system76-power profile balanced'
 
 # GPU Durum Kontrolü: NVIDIA kartı o an çalışıyor mu yoksa uykuda mı?
 alias gpu='cat /proc/driver/nvidia/gpus/*/power'
+alias gpu-intel='system76-power graphics integrated'
+alias gpu-hybrid='system76-power graphics hybrid'
+alias gpu-nvidia='system76-power graphics nvidia'
 
 # Otomasyon Örneği (Prism Launcher): 
 # Önce sistemi performans moduna alır, sonra launcher'ı NVIDIA kartıyla başlatır.
-alias mc='system76-power profile performance && prime-run /opt/prismlauncher/PrismLauncher'
+alias prismlauncher='system76-power profile performance && prime-run /opt/prismlauncher/PrismLauncher'
 
 ```
+> gpu- ile mod değiştirdikten sonra mutlaka `reboot` yapmak zorundayız. Eğer 'integrated' yani intel karta geçildiyse `prime-run` haliyle işe yaramayacaktır.
 
 ### 4. Yapılandırmayı Aktif Etme
 
