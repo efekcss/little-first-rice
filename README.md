@@ -82,10 +82,13 @@ alias profile-performance='system76-power profile performance'
 alias profile-balanced='system76-power profile balanced'
 
 # GPU Durum Kontrolü: NVIDIA kartı o an çalışıyor mu yoksa uykuda mı?
-alias gpu='cat /proc/driver/nvidia/gpus/*/power'
+alias nvidia-power='cat /proc/driver/nvidia/gpus/*/power'
+alias gpu='system76-power graphics'
 alias gpu-intel='system76-power graphics integrated'
 alias gpu-hybrid='system76-power graphics hybrid'
 alias gpu-nvidia='system76-power graphics nvidia'
+
+> nvidia-power ile nvidia-smi karıştırılmamalı, nvidia-smi ile nvidianın o anki P-state i ve kullanan uygulamalara bakılabilir, nvidia-power ile ise D-state ve nvidayı uyandırmadan Off/Acttive ve D3-Enable/Disable olup olmadığı bakılabilir
 
 # Otomasyon Örneği (Prism Launcher): 
 # Önce sistemi performans moduna alır, sonra launcher'ı NVIDIA kartıyla başlatır.
