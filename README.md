@@ -98,6 +98,20 @@ Dosyayı kaydettikten sonra terminalin bu yeni komutları tanıması için şu k
 
 ---
 
+### 5. NVIDIA'yı Ayakta Tutan Servisleri Kapatma
+
+D3 açık olsa bile prime-run ile bir app açılmasa bile gpu ile kontrol edince nvidiayı 'active' state'de tutan servisleri kapatmak gerek bunlar genellikle aşağıda verdiğim kapadığım 2 servis oluyor.
+
+* **Komut:** 
+`sudo systemctl stop nvidia-persistenced`
+`sudo systemctl disable nvidia-persistenced`
+`sudo systemctl stop nvidia-powerd`
+`sudo systemctl disable nvidia-powerd`
+* **Kapanmıyorsa maskle:** 
+`sudo systemctl stop nvidia-persistenced`
+`sudo systemctl mask nvidia-persistenced`
+* **Açıklama:** Bu 2 servisi kapatmak, kapanmıyorsa maskelemelek gerek.
+
 ## 📊 Kullanım Rehberi ve Doğrulama
 
 Sistemini kullanırken aşağıdaki tabloda yer alan kısa komutları kullanabilirsin:
